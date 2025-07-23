@@ -43,7 +43,6 @@ export const HeroSection = () => {
   }, []);
 
   const theme = useThemeMode();
-
   const iconColor = useMemo(
     () => (theme === "dark" ? "white" : "black"),
     [theme]
